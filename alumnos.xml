@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alumnos>
+    <alumno>
+        <nombre>María</nombre>
+        <apellidos>Pérez López</apellidos>
+        <curso>1º DAM</curso>
+        <beca>Sí</beca>
+        <edad>19</edad>
+        <ciudad>Madrid</ciudad>
+        <provincia>Madrid</provincia>
+        <nota>8.5</nota>
+    </alumno>
+    <alumno>
+        <nombre>Carlos</nombre>
+        <apellidos>Gómez Sánchez</apellidos>
+        <curso>1º DAM</curso>
+        <beca>No</beca>
+        <edad>18</edad>
+        <ciudad>Barcelona</ciudad>
+        <provincia>Barcelona</provincia>
+        <nota>7.2</nota>
+    </alumno>
+    <alumno>
+        <nombre>Laura</nombre>
+        <apellidos>Fernández Ruiz</apellidos>
+        <curso>2º DAM</curso>
+        <beca>Sí</beca>
+        <edad>20</edad>
+        <ciudad>Sevilla</ciudad>
+        <provincia>Sevilla</provincia>
+        <nota>9.1</nota>
+    </alumno>
+    <alumno>
+        <nombre>Javier</nombre>
+        <apellidos>Martín Rodríguez</apellidos>
+        <curso>2º DAM</curso>
+        <beca>No</beca>
+        <edad>21</edad>
+        <ciudad>Valencia</ciudad>
+        <provincia>Valencia</provincia>
+        <nota>5.8</nota>
+    </alumno>
+    <alumno>
+        <nombre>Ana</nombre>
+        <apellidos>Torres Hidalgo</apellidos>
+        <curso>3º DAM</curso>
+        <beca>Sí</beca>
+        <edad>22</edad>
+        <ciudad>Bilbao</ciudad>
+        <provincia>Bizkaia</provincia>
+        <nota>6.4</nota>
+    </alumno>
+    <alumno>
+        <nombre>Diego</nombre>
+        <apellidos>Hernández López</apellidos>
+        <curso>3º DAM</curso>
+        <beca>No</beca>
+        <edad>23</edad>
+        <ciudad>Zaragoza</ciudad>
+        <provincia>Zaragoza</provincia>
+        <nota>7.9</nota>
+    </alumno>
+    <alumno>
+        <nombre>Lucía</nombre>
+        <apellidos>Ortega Pérez</apellidos>
+        <curso>1º DAM</curso>
+        <beca>No</beca>
+        <edad>18</edad>
+        <ciudad>Murcia</ciudad>
+        <provincia>Murcia</provincia>
+        <nota>8.3</nota>
+    </alumno>
+    <alumno>
+        <nombre>Sergio</nombre>
+        <apellidos>Romero García</apellidos>
+        <curso>2º DAM</curso>
+        <beca>Sí</beca>
+        <edad>20</edad>
+        <ciudad>Granada</ciudad>
+        <provincia>Granada</provincia>
+        <nota>9.7</nota>
+    </alumno>
+    <alumno>
+        <nombre>Elena</nombre>
+        <apellidos>Sánchez Morales</apellidos>
+        <curso>3º DAM</curso>
+        <beca>No</beca>
+        <edad>21</edad>
+        <ciudad>Valladolid</ciudad>
+        <provincia>Valladolid</provincia>
+        <nota>5.3</nota>
+    </alumno>
+    <alumno>
+        <nombre>Pablo</nombre>
+        <apellidos>Castro Fernández</apellidos>
+        <curso>1º DAM</curso>
+        <beca>Sí</beca>
+        <edad>19</edad>
+        <ciudad>Toledo</ciudad>
+        <provincia>Toledo</provincia>
+        <nota>6.8</nota>
+    </alumno>
+</alumnos>
