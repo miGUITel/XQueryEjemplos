@@ -2,7 +2,7 @@
 
 Trabajamos sobre el archivo [alumnos.xml](./alumnos.xml)
 
-### 0 Nombre de todos los alumnos
+### 1 Nombre de todos los alumnos
 #### v1
 ```
 for $alu in /alumnos/alumno
@@ -49,7 +49,7 @@ Solo cambiamos la función sum() pot avg()
 let $notas :=
 for $alu in /alumnos/alumno
 return $alu/nota
-return sum($notas)
+return avg($notas)
 ```
 ![alt text](image-5.png)
 
