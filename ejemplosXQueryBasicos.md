@@ -54,7 +54,7 @@ return avg($notas)
 ![alt text](image-5.png)
 
 ### 5 Alumnos con una "o" en el nombre de su ciudad
-Solo los nombres:
+##### Solo los nombres:
 ```
 for $alu in /alumnos/alumno
 where contains($alu/ciudad, "o")
@@ -62,7 +62,7 @@ return $alu/nombre/text()
 ```
 ![alt text](image-7.png)
 
-Elementos alumno con subelementos nombre y ciudad:
+##### Elementos alumno con subelementos nombre y ciudad:
 ```
 for $alu in /alumnos/alumno
 where contains($alu/ciudad, "o")
@@ -73,6 +73,18 @@ return
 </alumno>
 ```
 ![alt text](image-6.png)
+
+> nota sobre el anterior:
+> si queremos generar más de un nodo (nombre y ciudad en este caso) debemos envolverlo en otro (alumno)
+> si no, no funcionará:
+
+```
+for $alu in /alumnos/alumno
+where contains($alu/ciudad, "o")
+return
+{$alu/nombre}
+{$alu/ciudad}
+```
 
 ### 6 número de alumnos en 2ª DAM
 ```
@@ -109,7 +121,8 @@ else <noBecado>{$a/nombre}</noBecado>
 ![alt text](image-10.png)
 
 ##### v2 Etiqueta general
-> atención a la coma que separa los dos elementos `<becados></becados>` y `<no_becados>`
+Aquí, en realidad, estamos juntando dos consultas XQuery, así que:
+> atención a la coma que separa los dos elementos `<becados>` y `<no_becados>`
 
 ```
     <becados>
