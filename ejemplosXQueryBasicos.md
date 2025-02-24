@@ -175,7 +175,7 @@ return $alu1 union $alu2
 ```
 ![alt text](image-13.png)
 
-### 10 itersección de los alumnos de 1º que tienen beca
+### 10 intersección de los alumnos de 1º que tienen beca
 ```
 let $primero :=
 for $a in /alumnos/alumno
